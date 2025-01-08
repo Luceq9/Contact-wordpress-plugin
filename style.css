@@ -1,0 +1,61 @@
+.contact-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form-container .left-column,
+.contact-form-container .right-column {
+  flex: 1;
+  padding: 20px;
+}
+.contact-form-container .left-column {
+  border-right: 1px solid #ccc;
+}
+.contact-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form-container input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.contact-form-container input[type='submit']:hover {
+  background-color: #45a049;
+}
+.contact-info {
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+.contact-info p {
+  margin: 10px 0;
+}
+.contact-info i {
+  margin-right: 10px;
+}
+.map-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.map-container iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
